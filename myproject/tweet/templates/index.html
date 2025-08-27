@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Page</title>  
-    <style>
-       body{
-        background-color: lightblue;
-        color: white;
-       } </style>
-</head>
-<body>
-    test tamplate
-</body>
-</html>
+{% extends "layout.html" %}
+{% block title %}
+    myproject tweet
+{% endblock %}
+{% block content %}
+
+    <h1 class="text-center mt-4">Welcome to myproject Django</h1>
+    {% endblock %}
