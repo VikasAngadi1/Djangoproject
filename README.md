@@ -1,1 +1,1 @@
-# My Django Project
+# My Full stack project in Django 
